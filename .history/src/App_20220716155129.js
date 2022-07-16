@@ -32,14 +32,11 @@ function App() {
 
       {/* Search Field */}
       <div className="search">
-        {/* Search Inputfield */}
         <input
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="Search for movies"
         />
-
-        {/* Search Icon */}
         <img
           src={SearchIcon}
           alt="search"

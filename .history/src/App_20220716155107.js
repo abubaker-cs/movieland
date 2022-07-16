@@ -8,13 +8,12 @@ import "./App.css";
 const API_URL = "http://www.omdbapi.com?apikey=d0a01edd";
 
 function App() {
-  // Constants
   const [searchTerm, setSearchTerm] = useState("");
   const [movies, setMovies] = useState([]);
 
   // Set initial query on the page load
   useEffect(() => {
-    searchMovies("war");
+    searchMovies("Batman");
   }, []);
 
   // JSON Query
@@ -32,14 +31,11 @@ function App() {
 
       {/* Search Field */}
       <div className="search">
-        {/* Search Inputfield */}
         <input
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="Search for movies"
         />
-
-        {/* Search Icon */}
         <img
           src={SearchIcon}
           alt="search"
