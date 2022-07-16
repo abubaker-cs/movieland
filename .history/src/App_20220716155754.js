@@ -29,7 +29,7 @@ function App() {
   return (
     // Main Container
     <div className="app">
-      <h1>MovieLand</h1>
+      <h1>MovieLand Tutorial</h1>
 
       {/* Search Field */}
       <div className="search">
