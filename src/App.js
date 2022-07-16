@@ -33,7 +33,7 @@ function App() {
 
       {/* Search Field */}
       <div className="search">
-        {/* Search Inputfield */}
+        {/* Search Input field */}
         <input
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
