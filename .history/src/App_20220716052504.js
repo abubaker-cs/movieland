@@ -1,6 +1,5 @@
+import logo from "./logo.svg";
 import "./App.css";
-
-// d0a01edd
 
 function App() {
   return (
